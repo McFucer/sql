@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
+
 from db import Session_local
 from models import MsgModel
 from schemas import MsgSchema
